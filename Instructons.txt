@@ -1,0 +1,46 @@
+Sentiment Analysis and Readability Score Calculation Code
+
+Dear Sir,
+
+I am submitting my Python code for a project that involves performing sentiment analysis and calculating readability scores for a collection of web articles. This code demonstrates my proficiency in web scraping, text processing, and data analysis. Below, I have provided a brief overview of the code's structure and functionality.
+
+Code Overview:
+
+Imports: The code begins by importing the necessary libraries and modules, including Pandas, requests, BeautifulSoup, NLTK, Openpyxl, Syllapy, and more. These libraries are used for web scraping, text processing, and data analysis.
+
+Loading Filtering Words: It defines functions for loading and filtering stop words from files in the "stopWords" directory. These stop words are later used to clean the extracted text.
+
+Loading Positive and Negative Words: The code loads positive and negative words from files in the "MasterDictionary" directory. Stop words are excluded from this list.
+
+Sentiment Analysis: The perform_sentiment_analysis function calculates positive and negative scores, polarity, and subjectivity scores for a given text.
+
+Readability Score Calculation: It defines a function calculate_readability to compute readability scores, including average sentence length, percentage of complex words, and Fog Index.
+
+Counting Personal Pronouns: The code counts personal pronouns (e.g., I, we, my) in the text using the count_personal_pronouns function.
+
+Data Extraction: It extracts article content from a given list of URLs, cleans the text, and saves it in individual text files. Errors are handled to ensure graceful execution.
+
+Data Analysis: The main function performs data analysis for all extracted text files. It computes various metrics, including word count, average word length, syllables per word, positive and negative scores, polarity, and subjectivity scores, among others.
+
+Data Integration: The computed metrics are added to a Pandas DataFrame, which is then saved to a new Excel file, "output_structure.xlsx."
+
+Usage:
+
+To run the code, ensure you have the required libraries installed and provide the input file, "input.xlsx," containing a list of URLs and URL IDs.
+
+The code will extract article content, analyze the text, and create the output Excel file.
+
+Notes:
+
+The code is designed for educational and demonstration purposes and may require customization for production use.
+
+You can modify the input file and adjust the file paths as needed.
+
+Dependencies:
+
+The code relies on external libraries, such as NLTK, Syllapy, and others. Ensure these libraries are installed using nltk.download and pip install.
+Thank you for considering my submission. If you have any questions or require further clarification, please feel free to contact me.
+
+Sincerely,
+Abdul Majeed
+
